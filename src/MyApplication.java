@@ -16,5 +16,11 @@ public class MyApplication {
 
         // PRINT THIS TO THE STANDARD OUTPUT (DEFAULTS TO THE TERMINAL)
         System.out.println("Java is Awesome.");
+
+        // WHILE LOOPS
+        while (age >= 0) {
+            System.out.println(name + " is now " + age + " years old.");
+            age --;
+        }
     }
 }
